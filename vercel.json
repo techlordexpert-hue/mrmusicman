@@ -1,1 +1,1 @@
-{"outputDirectory":"public","rewrites":[{"source":"/api","destination":"/api/index"}]}
+{"version":2,"builds":[{"src":"api.js","use":"@vercel/node"},{"src":"index.html","use":"@vercel/static"},{"src":"logo.svg","use":"@vercel/static"}],"routes":[{"src":"/api","dest":"/api.js"},{"src":"/","dest":"/index.html"},{"handle":"filesystem"}]}
